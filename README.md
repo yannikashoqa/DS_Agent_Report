@@ -4,8 +4,6 @@ AUTHOR		: Yanni Kashoqa
 
 TITLE		: Deep Security Agent Information
 
-VERSION		: 0.1
-
 DESCRIPTION	: This Powershell script will perform report the Deep Security Agent status information from Deep Security on Premise
 
 FEATURES
@@ -22,6 +20,6 @@ REQUIRMENTS
     "TENANT": "",
     "USER_NAME": "",
     "PASSWORD": "",
-    "REPORTFILE" : "DSaaS_Agent_Report.csv"
+    "REPORTNAME" : "DSaaS_Agent_Report"
 }
 
