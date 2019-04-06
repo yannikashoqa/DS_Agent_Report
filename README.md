@@ -25,4 +25,4 @@ REQUIRMENTS
 
 - For DSaaS, MANAGER should be "app.deepsecurity.trendmicro.com" and the PORT is "443".
 - For Deep Security On-Premise, the MANAGER should be the FQDN of the DSM server and the PORT is "4119".
-- The TENNANT is used when connecting to DSaaS and should reflect your Tenant name.
+- The TENANT is used when connecting to DSaaS and should reflect your Tenant name.
