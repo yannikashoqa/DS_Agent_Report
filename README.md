@@ -12,6 +12,8 @@ The ability to perform the following:-
 
 REQUIRMENTS
 - Powershell 5.1
+- AWSTools for PowerShell in order to query the AWS EC2 Instances power state.
+- A list of all AWS regions where instances are deployed
 - Create a DS-Config.json in the same folder with the following content modified to fit your environment:
 
 {
@@ -20,7 +22,12 @@ REQUIRMENTS
     "TENANT": "",
     "USER_NAME": "",
     "PASSWORD": "",
-    "REPORTNAME" : "DSaaS_Agent_Report"
+    "REPORTNAME" : "DSaaS_Agent_Report",
+    "AWSTOOLSFORPOWERSHELL" : "Yes",
+    "REGION" : [
+                    "us-east-1",
+                    "us-West-1"
+                ]
 }
 
 - For DSaaS, MANAGER should be "app.deepsecurity.trendmicro.com" and the PORT is "443".
