@@ -24,6 +24,7 @@ REQUIRMENTS
     "PASSWORD": "",
     "REPORTNAME" : "DSaaS_Agent_Report",
     "AWSTOOLSFORPOWERSHELL" : "Yes",
+    "AWSCREDENTIALPROFILE" : "CredentialProfileName",
     "REGION" : [
                     "us-east-1",
                     "us-West-1"
